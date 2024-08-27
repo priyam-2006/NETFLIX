@@ -1,0 +1,166 @@
+.b{
+    height: 50px;
+    width: 100px;
+    color: white;
+    background-color: red;
+    border: 0px;
+    border-radius: 10px;
+    float: inline-end;
+    font-family: 'Century Gothic';
+    font-size: 100%;
+}
+.head1{
+    display: contents-inline;
+
+}
+.pic{
+    height: 90px;
+    width: 150px;
+    padding-top: 0%;
+}
+.section{
+    background-image: url('https://analyticsindiamag.com/wp-content/uploads/2019/05/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    font-family: 'Century Gothic';
+    color: rgb(255, 0, 0);
+    font-size: 250%;
+}
+.head2{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+    text-align: center;
+}
+.head3{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+    text-align: center;
+}
+.email{
+    height: 60px;
+    width:300px;
+    background-color: rgba(2, 13, 51, 0.473);
+    border-radius: 8px;
+    border: 1px rgb(0, 255, 0);
+    font-size: 120% ;
+    color: white;
+}
+.button{
+    font-size: 130%;
+    border: 0px;
+    border-radius: 6px;
+    background-color: red;
+    font-style: normal;
+    color: white;
+    height: 60px;
+    width: 200px;
+    font-family: 'Century Gothic';
+    padding-top: 2px;
+    padding-bottom: 0px;
+}
+.button:hover{
+    background-color: white;
+    color: red;
+    cursor: pointer;
+}
+.email:click{
+    border-color: green;
+}
+.head3{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+}
+.b:hover{
+    background-color: white;
+    color: red;
+    cursor: pointer;
+}
+.tv{
+    background-color: black;
+    color: white;
+    padding-top: 0px;
+    font-size: 150%;
+    font-family: 'Segoe UI';
+
+}
+body{
+    background-color: #1d1d1d;
+}
+.sub{
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI';
+    font-size: 120%;
+    text-align: left;
+}
+.image{
+    height: 400px;
+    width: 500px;
+    
+}
+.Content{
+    color: white;
+    display: grid;
+     text-align: justify; 
+    grid-template-columns: 1fr 1fr 1fr;
+     column-gap: 5px;
+    background-color:black ;
+    padding-left: 20px;
+}
+.head4{
+    color: white;
+    display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 5px;
+}
+.s{
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+}
+.accordion {
+    background-color: #252525;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 18px;
+    width: 80%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    margin-left: 160px;
+    font-size: 130%;
+    font-family: 'Segoe UI';
+  }
+  
+  .active, .accordion:hover {
+    background-color: #2c2c2c;
+  }
+  
+  .panel {
+    
+    background-color: #252525;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    width: 80%;
+    margin-left: 160px;
+    font-family: 'segoe UI';
+    font-size: 130%;
+    color: white;
+  }
+  .tr{
+    font-family: 'Arial';
+  }
+  a{
+    color:#ffffff;
+
+  }
